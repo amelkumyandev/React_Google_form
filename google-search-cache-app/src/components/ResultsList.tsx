@@ -1,4 +1,4 @@
-import { Volume } from '../api/googleBooks'
+import { type Volume } from '../api/googleBooks'
 import { ResultCard } from './ResultCard'
 
 interface Props {

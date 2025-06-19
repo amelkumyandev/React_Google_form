@@ -1,4 +1,4 @@
-import { Volume } from '../api/googleBooks'
+import { type Volume } from '../api/googleBooks'
 
 export function ResultCard({ volume }: { volume: Volume }) {
   const info = volume.volumeInfo

@@ -11,7 +11,7 @@
  * The table is keyed *by `query`* so we can `.get(query)` directly.
  */
 
-import Dexie, { Table } from 'dexie'
+import Dexie, { type Table } from 'dexie'
 
 // -----------------------------
 // Types

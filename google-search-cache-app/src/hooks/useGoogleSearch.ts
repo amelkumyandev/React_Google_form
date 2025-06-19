@@ -1,6 +1,7 @@
 import { useCallback, useReducer, useRef } from 'react'
 import debounce from 'lodash.debounce'
-import { searchBooks, Volume } from '../api/googleBooks'
+import { searchBooks } from '../api/googleBooks'
+import type { Volume } from '../api/googleBooks'
 import {
   getCachedResults,
   setCachedResults
